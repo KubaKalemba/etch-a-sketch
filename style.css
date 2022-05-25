@@ -1,0 +1,141 @@
+body {
+    background-color: #f5cac2;
+    color: #303179;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.flex-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: 16px;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.header-title {
+    font-size: 2em;
+    margin-bottom: 16px;
+}
+
+.color-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-size: 8px;
+    font-style: italic;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(16, auto);
+    background-color: #ed7966;
+    padding: 8px;
+    border: solid 8px #141850;
+}
+
+.grid-item {
+    background-color: #fae5df;
+    border: 0.5px solid #141850;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.colors-header {
+    font-style: italic;
+    font-size: 1.5em;
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.dark-orange-button, .light-orange-button, .light-navy-button, .dark-navy-button {
+    border-radius: 10%;
+    padding: 16px;
+    margin: 8px;
+}
+
+.dark-orange-button {
+    background-color: #ed7966;
+    color: #ed7966;
+}
+
+.light-orange-button {
+    background-color: #f5cac2;
+    color: #f5cac2;
+}
+
+.light-navy-button {
+    background-color: #303179;
+    color: #303179;
+}
+
+.dark-navy-button {
+    background-color: #141850;
+    color: #141850;
+}
+
+.reset-input {
+    background-color: #ed7966;
+    color: lavenderblush;
+    border: solid lavenderblush;
+    border-radius: 5%;
+    padding: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.reset-button {
+    background-color: #ed7966;
+    color: lavenderblush;
+    border: solid lavenderblush;
+    border-radius: 5%;
+    padding: 8px;
+}
+
+.reset-button:hover {
+    background-color: #141850;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+}
+
+.fa-github {
+    font-size: 16px;
+    transition: transform .5s ease-in-out;
+}
+
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+::placeholder {
+    color: lavenderblush;
+}
+
